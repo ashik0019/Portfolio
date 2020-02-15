@@ -1,0 +1,98 @@
+.topFixedBanner{
+    background-image: url("../images/topbanner.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBannerOverlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.topContent{
+    margin-top: 10rem;
+}
+.topTitle{
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+}
+.topSubTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 22px;
+}
+.serviceCard{
+    margin: 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 4px rgba(0,115,230,0.2);
+}
+.serviceCard:hover{
+    box-shadow: 0 0 8px rgba(0,115,230,0.2);
+}
+.serviceMainTitle{
+    color: #0073E6;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: Montserrat,sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.serviceTitle {
+    margin-top: 1rem;
+    font-family: Raleway,sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.serviceDescription {
+    color: #484848;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.navTitle{
+    font-family: Montserrat,sans-serif;
+    color: #ffffff!important;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navTitleScroll{
+    font-family: Montserrat,sans-serif;
+    color: #0073E6!important;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navBackground{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(00,00,00,0.0)!important;
+}
+.navBackgroundScroll{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color:#ffffff;
+}
+.navItem{
+    font-size: 16px;
+    text-decoration: none!important;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: #ffffff!important;
+}
+.navItemScroll{
+    font-size: 16px;
+    text-decoration: none!important;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: #000000!important;
+}
