@@ -9,41 +9,41 @@ class RecentProject extends Component {
                     <h1 className="serviceMainTitle">Recent Project</h1>
                     <Row>
                         <Col lg={4} md={6} sm={12}>
-                            <Card>
+                            <Card className="projectCard">
                                 <Card.Img variant="top" src={projectImg} alt="recent Project"/>
                                 <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
+                                    <Card.Text className="projectCardDescription">
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    <Button variant="primary">Details</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
                         <Col lg={4} md={6} sm={12}>
-                            <Card>
+                            <Card className="projectCard">
                                 <Card.Img variant="top" src={projectImg} alt="recent Project" />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
+                                    <Card.Title className="projectCardTitle">Card Title</Card.Title>
+                                    <Card.Text className="projectCardDescription">
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    <Button variant="primary">Details</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
                         <Col lg={4} md={6} sm={12}>
-                            <Card>
+                            <Card className="projectCard">
                                 <Card.Img variant="top" src={projectImg} alt="recent Project" />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
+                                    <Card.Title className="projectCardTitle">Card Title</Card.Title>
+                                    <Card.Text className="projectCardDescription">
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    <Button variant="primary">Details</Button>
                                 </Card.Body>
                             </Card>
                         </Col>

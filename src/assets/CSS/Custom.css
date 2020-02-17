@@ -157,3 +157,72 @@
     padding: 10px;
     border-radius: 2px;
 }
+.projectCard{
+    border-radius: 2px;
+    border: none!important;
+    margin: 2px;
+    box-shadow: 0 0 4px rgba(0,115,230,0.2);
+}
+.projectCard:hover{
+    box-shadow: 0 0 8px rgba(0,115,230,0.2);
+}
+.projectCardTitle{
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.projectCardDescription{
+    font-family: Raleway,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.courseImg{
+    width: 100%;
+}
+.courseTitle{
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.courseDes{
+    font-family: Raleway,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #212529;
+    text-align: left;
+    margin-bottom: 0.5rem!important;
+}
+.courseDetails{
+    text-decoration: none;
+    font-family: Raleway,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #0073E6;
+    margin-bottom: 5px;
+}
+.courseDetails:hover{
+    text-decoration: none;
+}
+.videoCard{
+    box-shadow: 0 0 4px rgba(0,115,230,0.2);
+    padding: 6rem 3rem 6rem 3rem;
+    background-color: #ffffff;
+    margin: 50px auto;
+}
+.playBtn{
+    color: #0073E6;
+    font-size: 48px;
+    cursor: pointer;
+}
+.videoTitle{
+    color: #0073E6;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.videoDes{
+    font-family: Releway,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
