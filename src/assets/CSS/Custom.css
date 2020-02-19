@@ -13,7 +13,7 @@
     background: rgba(0,0,0,0.7);
 }
 .topContent{
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 .topTitle{
     font-family: 'Montserreat', sans-serif;
@@ -51,7 +51,7 @@
     font-weight: 600;
 }
 .serviceDescription {
-    color: #484848;
+    color: #2B2B2B;
     font-family: Montserrat,sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -95,11 +95,11 @@
     text-decoration: none!important;
     font-family: Montserrat,sans-serif;
     font-weight: 400;
-    color: #000000!important;
+    color: #2B2B2B!important;
 }
 .des{
     font-weight: 400;
-    color: #000000;
+    color: #2B2B2B;
     font-family: Raleway,sans-serif;
     font-size: 14px;
 }
@@ -225,4 +225,50 @@
     font-family: Releway,sans-serif;
     font-weight: 400;
     font-size: 16px;
+}
+.circleImg{
+    margin: 0 auto;
+    height: 100px;
+    border: 1px solid #0073E6;
+    border-radius: 50%;
+}
+.footerSection{
+    margin-top: 5rem;
+    box-shadow: 0 0 4px rgba(0,115,230,0.2);
+}
+.socialLink{
+    text-decoration: none;
+    color: #0073E6;
+    font-family: Releway,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.socialLink:hover{
+    text-decoration: none;
+    color: #2B2B2B;
+}
+.footerLink{
+    text-decoration: none;
+    font-family: Releway,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2B2B2B;
+}
+.footerLink:hover{
+    color: #0073E6;
+    text-decoration: none;
+}
+.copyRightSection{
+    padding: 20px;
+    background-color: #0073E6;
+}
+.copyRightLink{
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+.copyRightLink:hover{
+    color: #000000;
+    text-decoration: none;
 }

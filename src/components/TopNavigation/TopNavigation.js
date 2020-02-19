@@ -12,6 +12,7 @@ class TopNavigation extends Component {
             navBarLogo: [whiteLogo],
             navBarBack: 'navBackground',
             navBarItem: 'navItem',
+            navVariant: "dark",
         }
 
     }
@@ -22,14 +23,16 @@ class TopNavigation extends Component {
                 navBarTitle: 'navTitleScroll',
                 navBarLogo: [whiteLogo],
                 navBarBack: 'navBackgroundScroll',
-                navBarItem: 'navItemScroll'
+                navBarItem: 'navItemScroll',
+                navVariant: 'light'
             })
         }else if (window.scrollY < 100){
             this.setState({
                 navBarTitle: 'navTitle',
                 navBarLogo: [blackLogo],
                 navBarBack: 'navBackground',
-                navBarItem: 'navItem'
+                navBarItem: 'navItem',
+                navVariant: 'dark'
             })
         }
     };
@@ -41,7 +44,7 @@ class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar className={this.state.navBarBack} fixed={"top"} collapseOnSelect expand="lg"  variant="dark">
+                <Navbar variant={this.state.navVariant} className={this.state.navBarBack} fixed={"top"} collapseOnSelect expand="lg" >
                     <Navbar.Brand className={this.state.navBarTitle}>
                         <img src={this.state.navBarLogo} alt="" className="pr-2"/>
                          ASH ASTRO
