@@ -3,6 +3,7 @@ import {Col, Container, Row} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook,faYoutube} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope, faPhone, faMapPin, faMapMarker} from '@fortawesome/free-solid-svg-icons'
+import {Link} from "react-router-dom";
 class Footer extends Component {
     render() {
         return (
@@ -11,7 +12,7 @@ class Footer extends Component {
                     <Row>
                         <Col sm={12} md={6} lg={3}>
                             <h1 className="serviceTitle">Follow Me</h1>
-                            <a href="" className="socialLink"><FontAwesomeIcon icon={faFacebook}/> Facebook</a><br/>
+                            <a target="_blank" href="https://www.facebook.com/ash.astro19" className="socialLink"><FontAwesomeIcon icon={faFacebook}/> Facebook</a><br/>
                             <a className="socialLink" href=""><FontAwesomeIcon icon={faYoutube}/> YouTube</a>
                         </Col>
                         <Col sm={12} md={6} lg={3}>
@@ -22,20 +23,19 @@ class Footer extends Component {
                         </Col>
                         <Col sm={12} md={6} lg={3}>
                             <h1 className="serviceTitle">Information</h1>
-                            <a className="footerLink" href="">About Me</a><br/>
-                            <a className="footerLink" href="">My Resume</a><br/>
-                            <a className="footerLink" href="">Contact Me</a>
+                            <Link className="footerLink" to="/about">About Me</Link><br/>
+                            <Link className="footerLink" to="/contact">Contact Me</Link>
                         </Col>
                         <Col sm={12} md={6} lg={3}>
                             <h1 className="serviceTitle">Legal</h1>
-                            <a className="footerLink" href="">Refund Policy</a><br/>
-                            <a className="footerLink" href="">Terms and Condition</a><br/>
-                            <a className="footerLink" href="">Privacy Policy</a>
+                            <Link className="footerLink" to="/refund-policy" >Refund Policy</Link><br/>
+                            <Link className="footerLink" to="/terms-and-condition">Terms and Condition</Link><br/>
+                            <Link className="footerLink" to="/privacy-policy">Privacy Policy</Link>
                         </Col>
                     </Row>
                 </Container>
                 <Container fluid={true} className="text-center copyRightSection">
-                    <a href="#" className="copyRightLink">ashastro.com &copy; 2019-2021</a>
+                    <a href="https://www.facebook.com/ash.astro19" className="copyRightLink">ashastro.com &copy; 2019-2021</a>
 
                 </Container>
             </Fragment>

@@ -1,6 +1,7 @@
 import React, {Component,Fragment} from 'react';
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import projectImg from '../../assets/images/mobilepondit.png'
+import {Link} from "react-router-dom";
 class RecentProject extends Component {
     render() {
         return (
@@ -17,7 +18,7 @@ class RecentProject extends Component {
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Details</Button>
+                                    <Button variant="primary"><Link className="linkStyle" to="/project-details">Details</Link></Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -30,7 +31,7 @@ class RecentProject extends Component {
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Details</Button>
+                                    <Button variant="primary"><Link className="linkStyle" to="/project-details">Details</Link></Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -43,7 +44,7 @@ class RecentProject extends Component {
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Details</Button>
+                                    <Button variant="primary"><Link className="linkStyle" to="/project-details">Details</Link></Button>
                                 </Card.Body>
                             </Card>
                         </Col>

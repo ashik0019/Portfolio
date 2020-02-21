@@ -301,3 +301,11 @@
     border-color: #0073E6!important;
     box-shadow: 0 0 4px rgba(0,115,230,0.2)!important;
 }
+.linkStyle{
+    color: #ffffff!important;
+    text-decoration: none!important;
+}
+.linkStyle:hover{
+    color: #ffffff!important;
+    text-decoration: none!important;
+}
