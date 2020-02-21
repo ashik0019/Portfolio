@@ -88,7 +88,7 @@
     text-decoration: none!important;
     font-family: Montserrat,sans-serif;
     font-weight: 400;
-    color: #ffffff!important;
+    color: #ffffff;
 }
 .navItemScroll{
     font-size: 16px;
@@ -271,4 +271,33 @@
 .copyRightLink:hover{
     color: #000000;
     text-decoration: none;
+}
+
+.topFixedPage{
+    background-image: url("../images/topbanner.jpg");
+    min-height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topPageOverlay{
+    position: absolute;
+    min-height: 280px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.topPageContent{
+    margin-top: 8rem;
+}
+.pageTitle{
+    font-family: Releway,sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #ffffff;
+}
+.form-control:focus{
+    border-radius: 2px!important;
+    border-color: #0073E6!important;
+    box-shadow: 0 0 4px rgba(0,115,230,0.2)!important;
 }
