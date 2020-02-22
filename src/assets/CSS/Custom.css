@@ -61,12 +61,20 @@
     color: #ffffff!important;
     font-weight: 700;
     font-size: 24px;
+    text-decoration: none;
+}
+.navTitle:hover{
+    text-decoration: none;
 }
 .navTitleScroll{
     font-family: Montserrat,sans-serif;
     color: #0073E6!important;
     font-weight: 700;
     font-size: 24px;
+    text-decoration: none;
+}
+.navTitleScroll:hover{
+    text-decoration: none;
 }
 .navBackground{
     -webkit-transition: background-color 400ms linear;
@@ -308,4 +316,25 @@
 .linkStyle:hover{
     color: #ffffff!important;
     text-decoration: none!important;
+}
+.topPageContentCourse{
+    margin-top: 6rem;
+}
+.courseFullTitle{
+    color: white;
+    font-family: Releway, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.courseSubTitle{
+    color: white;
+    font-family: Releway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.courseTopDes{
+    color: white;
+    font-family: Releway, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }

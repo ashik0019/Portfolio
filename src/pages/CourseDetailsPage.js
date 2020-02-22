@@ -1,23 +1,21 @@
 import React, {Component, Fragment} from 'react';
 import TopNavigation from "../components/TopNavigation/TopNavigation";
-import PageTop from "../components/PageTop/PageTop";
 import Footer from "../components/Footer/Footer";
-import RefundSection from "../components/RefundSection/RefundSection";
+import CourseDetails from "../components/CourseDetails/CourseDetails";
 
-class RefundPage extends Component {
+class CourseDetailsPage extends Component {
     componentDidMount() {
         window.scroll(0,0)
     }
     render() {
         return (
             <Fragment>
-                <TopNavigation title="Refund Policy || Ash Astro"/>
-                <PageTop pageTitle="Refund Policy"/>
-                <RefundSection/>
+                <TopNavigation title="Course Details || Ash Astro"/>
+                <CourseDetails/>
                 <Footer/>
             </Fragment>
         );
     }
 }
 
-export default RefundPage;
+export default CourseDetailsPage;

@@ -5,6 +5,9 @@ import Footer from "../components/Footer/Footer";
 import PageTop from "../components/PageTop/PageTop";
 
 class ContactPage extends Component {
+    componentDidMount() {
+        window.scroll(0,0)
+    }
     render() {
         return (
             <Fragment>
